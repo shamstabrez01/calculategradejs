@@ -12,5 +12,5 @@ function calculategrade(score) {
   }
 }
 
-let grade = calculategrade(80);
+let grade = calculategrade(90);
 console.log(grade);
