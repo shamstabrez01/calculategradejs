@@ -1,4 +1,4 @@
-let result = weather === "rainy";
+let result = weather === "sunny";
 
 if (weather === rainy) {
   console.log("carrying umbrella");
@@ -8,4 +8,4 @@ if (weather === rainy) {
   console.log("enjoy the sunny weather");
 }
 
-console.log("weather === cloudy");
+console.log("weather === sunny");
