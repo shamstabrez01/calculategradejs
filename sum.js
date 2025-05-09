@@ -7,10 +7,11 @@ function sumfac(numbers) {
     sum = sum + numbers[i];
     //sum += numbers[i];
   }
+  return sum;
 }
 
 let result = sumfac(myarray);
 console.log(result);
 
-let anotherresult = sumfac(anotherarray);
-console.log(anotherresult);
+let anotherresult = sumfac([2, 2, 4, 5, 6, 3, 9]);
+console.log(`my result is ${anotherresult}`);
